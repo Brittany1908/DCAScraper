@@ -1,3 +1,5 @@
+# Import urllib used to obtain html of a website
+
 import urllib.request;
 website = urllib.request.urlopen('http://www.5dca.org/Opinions/Opin2017/030617/filings%20030617.html');
 print (website.read());
