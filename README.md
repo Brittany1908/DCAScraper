@@ -1,2 +1,2 @@
 # DCAScraper
-Used to determine statistical information regarding issued opinions. 
+Used to read public record statistical information regarding issued opinions. 
