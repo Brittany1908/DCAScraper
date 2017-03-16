@@ -1,7 +1,7 @@
 '''
 Program Name: DCA Scraper
 Created: March 12, 2017
-Modified: March 15, 2017
+Modified: March 16, 2017
 Purpose: Obtain information from websites, then parse the
 information.
 '''
