@@ -20,7 +20,8 @@ website = urllib.request.urlopen('http://www.5dca.org/Opinions/Opin2017/030617/f
 soup = BeautifulSoup(website, 'html.parser');
 
 #-----------------------------------------------------------
-# Take out the <div> of name and get its value
+# Print all links as a sting.
 for link in soup.findAll('a'):
     print (link.string);
 
+# Currently only written opinions are printed. Not PCAs
